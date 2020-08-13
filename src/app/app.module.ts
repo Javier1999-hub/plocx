@@ -13,6 +13,7 @@ import { DeportivaComponent } from './categorias/deportiva/deportiva.component';
 import { FormalComponent } from './categorias/formal/formal.component';
 import { FrioComponent } from './categorias/frio/frio.component';
 import { InicioSesionComponent } from './categorias/inicio-sesion/inicio-sesion.component';
+import { RegistroComponent } from './categorias/inicio-sesion/registro/registro.component';
 
 @NgModule({
   declarations: [
@@ -27,6 +28,7 @@ import { InicioSesionComponent } from './categorias/inicio-sesion/inicio-sesion.
     FormalComponent,
     FrioComponent,
     InicioSesionComponent,
+    RegistroComponent,
   ],
   imports: [
     BrowserModule,

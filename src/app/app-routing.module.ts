@@ -6,6 +6,7 @@ import { DeportivaComponent } from './categorias/deportiva/deportiva.component';
 import { FormalComponent } from './categorias/formal/formal.component';
 import { FrioComponent } from './categorias/frio/frio.component';
 import { InicioSesionComponent } from './categorias/inicio-sesion/inicio-sesion.component';
+import { RegistroComponent } from './categorias/inicio-sesion/registro/registro.component';
 
 
 const routes: Routes = [
@@ -14,6 +15,7 @@ const routes: Routes = [
   {path: 'categorias/formal', component: FormalComponent},
   {path: 'categorias/frio', component: FrioComponent},
   {path: 'categorias/inicio-sesion', component: InicioSesionComponent},
+  {path: 'categorias/inicio-sesion/registro', component: RegistroComponent},
   
   {path: '**', pathMatch: 'full', redirectTo:'principal'},
 
